@@ -1,5 +1,5 @@
 {
-  "name": "hexo-generator-feed",
+  "name": "hexo-generator-feed-cst",
   "version": "1.2.2",
   "description": "Feed generator plugin for Hexo",
   "main": "index",
@@ -12,7 +12,10 @@
   "directories": {
     "lib": "./lib"
   },
-  "repository": "hexojs/hexo-generator-feed",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubuntuvim/hexo-generator-feed-cst.git"
+  },
   "keywords": [
     "hexo",
     "rss",
@@ -20,10 +23,7 @@
     "atom",
     "generator"
   ],
-  "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
-  "maintainers": [
-    "Abner Chou <hi@abnerchou.me> (http://abnerchou.me)"
-    ],
+  "author": "https://github.com/ubuntuvim",
   "license": "MIT",
   "dependencies": {
     "nunjucks": "^3.0.0",
